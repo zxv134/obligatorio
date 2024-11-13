@@ -1,1 +1,20 @@
+import java.awt.*;
+import javax.swing.*;
+public class vanta extends JFrame{
 
+	vanta(){
+		setTitle("Base de Datos");
+		setBounds(200,200,500,500);
+		setVisible(true);
+		
+		Container fui = getContentPane();
+		
+		JLabel texto = new JLabel("Iniciar sesión");
+		fui.add(texto);
+	}
+	public static void main(String[] args) {
+		
+		vanta hola = new vanta();
+	}
+
+}
